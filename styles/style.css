@@ -85,6 +85,12 @@ top blog styles
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 30px;
 }
+.course{
+    box-shadow: 1px 1px 20px lavenderblush;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+ }
  .course .course-banner img{
     width: 224px;
     height: 104px;
@@ -146,20 +152,32 @@ top blog styles
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    .course{
+        box-shadow: 1px 1px 20px lavenderblush;
+        border-radius: 10px;
+        margin: 15px;
+        padding: 15px;
+    }
  }
  /* -------tablet-------- */
  @media only screen and (min-width:688px) and (max-width:992px) {
-     .container{
-         width: 100%;
-     }
-     .section-titles{
-        text-align: center;
-     }
-     .players{
-         display: grid;
-         grid-template-columns: repeat(2, 1fr);
-     }
-     .player{
-         justify-content: center;
-     }
+    .container{
+        width: 100%;
+    }
+    .section-titles{
+       text-align: center;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        justify-content: center;
+    }
+    .course{
+       box-shadow: 1px 1px 20px lavenderblush;
+       border-radius: 10px;
+       margin: 15px;
+       padding: 15px;
+    }
  }
