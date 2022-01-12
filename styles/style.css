@@ -115,6 +115,51 @@ top blog styles
  .course-duration{
     color: #FF4A60;
     background-color: #FFE4E8;
-    padding: 3px;
+    padding: 5px;
     border-radius: 14px;
+ }
+
+ /*-----------------
+ Media Quareis
+ ------------------ */
+
+ /*------ mobile device ----- */
+ @media only screen and (max-width: 688px) {
+    .container{
+        width: 100%;
+    }
+    .section-titles{
+        text-align: center;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        justify-content: center;
+    }
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+ /* -------tablet-------- */
+ @media only screen and (min-width:688px) and (max-width:992px) {
+     .container{
+         width: 100%;
+     }
+     .section-titles{
+        text-align: center;
+     }
+     .players{
+         display: grid;
+         grid-template-columns: repeat(2, 1fr);
+     }
+     .player{
+         justify-content: center;
+     }
  }
