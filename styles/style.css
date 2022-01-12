@@ -80,7 +80,11 @@ top blog styles
 /*------------------
  latest course style
  -------------------- */
-
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+}
  .course .course-banner img{
     width: 224px;
     height: 104px;
@@ -111,7 +115,6 @@ top blog styles
  .course-duration{
     color: #FF4A60;
     background-color: #FFE4E8;
-    padding: 5px;
-    
-    border-radius: 14.6913px;
+    padding: 3px;
+    border-radius: 14px;
  }
